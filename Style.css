@@ -3,14 +3,17 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 body {
-    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Images/Torii1.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: #171a19;
-    font-family: "Montserrat", sans-serif;
     color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 /* -------------Container da Tela--------------- */
@@ -29,16 +32,16 @@ body {
 
 .perfilContainer {
 
+    background-color: #0D0D0D;
     display: flex;
     flex-direction: column;
-    background-color: #0D0D0D;
     width: 425px;
     height: 650px;
     border-radius: 25px;
     overflow: hidden;
     font-weight: 500;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
-
+    box-shadow: 0px 0px 10px rgba(175, 174, 174, 0.5);
+ 
 }
 
 /* -------------Container da Imagem--------------- */
@@ -66,7 +69,7 @@ body {
 /* -------------Container dos links--------------- */
 
 .linksContainer {
-    background-color: #d62424;
+    background-image: linear-gradient(#d62424, rgb(216, 55, 55));
     width: 100%;
     height: 55%;
 }
@@ -121,6 +124,9 @@ body {
 }
 
 .linksContainer a:hover{
-    background-color: #bfe0ff;
+    background-color: #bbc0c4;
     transform: scale(1.08);
+    transition: transform 0.5s;
 }
+
+
