@@ -79,25 +79,13 @@ body {
     background-color: white;
     color: black;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 13px;
     font-size: 18px;
-    justify-content: start;
+    justify-content: space-between;
     text-decoration: none;
 }
 
-.linkedinLink {
-    gap: 170px;
-}
-
-.githubLink {
-    gap: 184px;
-}
-
-.instagramLink {
-    gap: 159px;
-}
 
 .linkedinContainer {
     margin: 40px 60px 0px 60px;
